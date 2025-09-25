@@ -1,0 +1,16 @@
+{
+  "name": "discord-pix-bot",
+  "version": "1.0.0",
+  "description": "Bot do Discord para gerar PIX com QR Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "pix-payload": "^1.0.0",
+    "qrcode": "^1.5.1",
+    "dotenv": "^16.0.0"
+  }
+}
